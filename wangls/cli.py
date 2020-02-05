@@ -9,7 +9,7 @@ help_settings = dict(help_option_names=["-h", "--help"])
 
 
 @click.command(context_settings=help_settings)
-@click.version_option(version="0.1.4")
+@click.version_option(version="0.1.5")
 @click.option("--o", "-o", is_flag=True, help="Enable OS detection")
 def main(o):
     """A command line tool that gives you the IPs of the devices connected to the same network segment."""
