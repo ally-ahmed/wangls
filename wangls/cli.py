@@ -12,7 +12,7 @@ def main(o):
     """A command line tool that gives you the IPs of the devices connected to the same network segment."""
     HEADERS = ["IPs", "MAC Address", "Operating System"]
     if not is_nmap_installed():
-        click.echo("Nmap is not installed. Please download nmap https://nmap.org/download.html")
+        click.echo("Nmap is not installed. Please download Nmap https://nmap.org/download.html")
         return
     if o:
         os_output = get_ips_and_os()
