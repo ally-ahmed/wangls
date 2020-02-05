@@ -22,3 +22,7 @@ History
 0.1.4 (2020-02-05)
 ------------------
 * Fixed minor typos
+
+0.1.5 (2020-02-05)
+------------------
+* Added version option
