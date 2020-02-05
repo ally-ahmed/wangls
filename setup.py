@@ -17,7 +17,7 @@ setup_requirements = ['pytest-runner', ]
 test_requirements = ['pytest>=3', ]
 
 setup(
-    author="Ahmed Abdi Ali",
+    author="Ahmed Ali",
     author_email='norbixin@live.com',
     python_requires='>=3.5',
     classifiers=[

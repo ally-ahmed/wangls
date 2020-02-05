@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'wangls'
-copyright = "2020, Ahmed Abdi Ali"
-author = "Ahmed Abdi Ali"
+copyright = "2020, Ahmed Ali"
+author = "Ahmed Ali"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -129,7 +129,7 @@ latex_elements = {
 latex_documents = [
     (master_doc, 'wangls.tex',
      'wangls Documentation',
-     'Ahmed Abdi Ali', 'manual'),
+     'Ahmed Ali', 'manual'),
 ]
 
 
