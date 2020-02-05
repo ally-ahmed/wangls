@@ -28,4 +28,8 @@ Usage
 
 * Simple scan that returns only IPs.
 
+.. image:: /docs/simple_scan.mov
+
 * Scanning your whole network with OS detection might take some time especially if there are many devices connected.
+
+.. image:: /docs/os_scan.png
