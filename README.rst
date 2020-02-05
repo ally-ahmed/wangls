@@ -28,8 +28,16 @@ Usage
 
 * Simple scan that returns only IPs.
 
+.. code-block:: console
+
+    $ wangls
+
 .. image:: https://i.imgur.com/SIkQfju.gif
 
 * Scanning your whole network with OS detection might take some time especially if there are many devices connected.
+
+.. code-block:: console
+
+    $ wangls -o
 
 .. image:: https://i.imgur.com/HUNFvrD.png

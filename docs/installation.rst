@@ -4,10 +4,13 @@
 Installation
 ============
 
+Prerequisite
+--------------
+
+Install nmap https://nmap.org/download.html
 
 Stable release
 --------------
-
 To install wangls, run this command in your terminal:
 
 .. code-block:: console
