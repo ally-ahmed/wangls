@@ -5,11 +5,14 @@ from terminaltables import SingleTable
 
 from wangls.wangls import is_nmap_installed, get_ips_and_os, get_local_ips
 
+help_settings = dict(help_option_names=["-h", "--help"])
 
-@click.command()
+
+@click.command(context_settings=help_settings)
 @click.option("--o", "-o", is_flag=True, help="Enable OS detection")
 def main(o):
     """A command line tool that gives you the IPs of the devices connected to the same network segment."""
+
     HEADERS = ["IPs", "MAC Address", "Operating System"]
     if not is_nmap_installed():
         click.echo("Nmap is not installed. Please download Nmap https://nmap.org/download.html")
