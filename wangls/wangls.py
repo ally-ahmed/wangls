@@ -71,7 +71,6 @@ def get_ips_and_os():
         )
 
     response_entries = command_response.stdout.split("\n\n")
-    click.echo(response_entries)
 
     organized_data = []
     for i, entry in enumerate(response_entries):
