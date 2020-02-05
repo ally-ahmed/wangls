@@ -14,3 +14,7 @@ History
 0.1.2 (2020-02-05)
 ------------------
 * Add dependencies requirements
+
+0.1.2 (2020-02-05)
+------------------
+* Added help option
