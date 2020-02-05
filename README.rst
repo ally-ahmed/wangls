@@ -28,7 +28,7 @@ Usage
 
 * Simple scan that returns only IPs.
 
-.. image:: https://github.com/ally-ahmed/wangls/blob/master/docs/simple_scan.gif
+.. image:: https://github.com/ally-ahmed/wangls/blob/master/docs/simple_scan.gi
 
 * Scanning your whole network with OS detection might take some time especially if there are many devices connected.
 
