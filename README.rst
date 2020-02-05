@@ -20,18 +20,12 @@ A command line tool that gives you the IPs of the devices connected to the same 
 
 
 * Free software: MIT license
-* Documentation: https://wangls.readthedocs.io. (Coming Soon)
+* Documentation: https://wangls.readthedocs.io.
 
 
-Features
+Usage
 --------
 
-* TODO
+* Simple scan that returns only IPs.
 
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+* Scanning your whole network with OS detection might take some time especially if there are many devices connected.
